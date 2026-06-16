@@ -1,6 +1,6 @@
 # AI Study Buddy
 
-AI Study Buddy is a Streamlit-based Generative AI application that helps students learn topics efficiently.
+AI Study Buddy is a Streamlit-based Generative AI application that helps students understand topics, generate summaries, and create exam-ready notes using Google's Gemini model.
 
 ## Features
 
@@ -8,6 +8,7 @@ AI Study Buddy is a Streamlit-based Generative AI application that helps student
 * Essay Summaries
 * Exam Notes Generation
 * AI-Powered Responses using Gemini
+* Interactive Streamlit Interface
 
 ## Tech Stack
 
@@ -17,12 +18,21 @@ AI Study Buddy is a Streamlit-based Generative AI application that helps student
 
 ## Installation
 
+1. Clone the repository
+
 ```bash
-pip install google-genai
-streamlit run product.py or streamlit run product.py --server.port 8505
+git clone https://github.com/your-username/AI-StudyBuddy.git
+cd AI-StudyBuddy
 ```
 
-## Environment Variables
+2. Install dependencies
+
+```bash
+pip install streamlit
+pip install google-genai
+```
+
+3. Add your Gemini API Key
 
 Create a `.env` file:
 
@@ -30,10 +40,36 @@ Create a `.env` file:
 GEMINI_API_KEY=your_api_key
 ```
 
+4. Run the application
+
+```bash
+streamlit run product.py
+```
+
+If the default port is occupied:
+
+```bash
+streamlit run product.py --server.port 8505
+```
+
+## Project Structure
+
+```text
+AI-StudyBuddy/
+│
+├── product.py
+├── README.md
+├── .gitignore
+└── .env (not uploaded to GitHub)
+```
+
+## Future Enhancements
+
+* Quiz Generator
+* Flashcard Generator
+* PDF Notes Summarizer
+* Personalized Learning Recommendations
+
 ## Author
 
 Sifat Bhatia
-
-```
-```
-
