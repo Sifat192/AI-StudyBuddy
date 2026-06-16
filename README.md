@@ -1,14 +1,14 @@
 # AI Study Buddy
 
-AI Study Buddy is a Streamlit-based Generative AI application that helps students understand topics, generate summaries, and create exam-ready notes using Google's Gemini model.
+AI Study Buddy is a Streamlit-based Generative AI application that helps students understand topics, generate concise essays, and create exam-ready notes using Google's Gemini AI model.
 
 ## Features
 
-* Explain Concepts
-* Essay Summaries
-* Exam Notes Generation
-* AI-Powered Responses using Gemini
-* Interactive Streamlit Interface
+* Explain complex concepts in simple language
+* Generate concise essays on any topic
+* Create exam-ready notes with key points and bullet summaries
+* Interactive Streamlit-based user interface
+* Powered by Google Gemini
 
 ## Tech Stack
 
@@ -16,41 +16,55 @@ AI Study Buddy is a Streamlit-based Generative AI application that helps student
 * Streamlit
 * Google Gemini API
 
+## Project Workflow
+
+```text
+User Input
+    ↓
+Select Study Mode
+    ↓
+Gemini AI
+    ↓
+Generated Study Material
+```
+
 ## Installation
 
-1. Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/AI-StudyBuddy.git
+git clone https://github.com/Sifat192/AI-StudyBuddy.git
 cd AI-StudyBuddy
 ```
 
-2. Install dependencies
+Install the required packages:
 
 ```bash
-pip install streamlit
-pip install google-genai
+pip install -r requirements.txt
 ```
 
-3. Add your Gemini API Key
-
-Create a `.env` file:
-
-```text
-GEMINI_API_KEY=your_api_key
-```
-
-4. Run the application
+Run the application:
 
 ```bash
 streamlit run product.py
 ```
 
-If the default port is occupied:
+If the default port is already in use:
 
 ```bash
 streamlit run product.py --server.port 8505
 ```
+
+## Usage
+
+1. Enter a topic you want to study.
+2. Select a study mode:
+
+   * Explain Concept
+   * Summarise in Essay
+   * Exam Minutes
+3. Click **Generate**.
+4. View the AI-generated response.
 
 ## Project Structure
 
@@ -59,8 +73,7 @@ AI-StudyBuddy/
 │
 ├── product.py
 ├── README.md
-├── .gitignore
-└── .env (not uploaded to GitHub)
+└── requirements.txt
 ```
 
 ## Future Enhancements
@@ -69,7 +82,9 @@ AI-StudyBuddy/
 * Flashcard Generator
 * PDF Notes Summarizer
 * Personalized Learning Recommendations
+* Multi-language Support
 
 ## Author
 
 Sifat Bhatia
+
