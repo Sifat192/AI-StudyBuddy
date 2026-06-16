@@ -19,7 +19,7 @@ AI Study Buddy is a Streamlit-based Generative AI application that helps student
 
 ```bash
 pip install google-genai
-streamlit run product.py
+streamlit run product.py or streamlit run product.py --server.port 8505
 ```
 
 ## Environment Variables
