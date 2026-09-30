@@ -28,6 +28,19 @@ Gemini AI
 Generated Study Material
 ```
 
+## Project Architecture
+
+The diagram provides an overview of AI StudyBuddy's components
+and how they connect.
+
+<p align="center">
+  <img src="ai-studybuddy-architecture.png"
+       alt="AI StudyBuddy project architecture"
+       width="600">
+</p>
+
+[View full-size diagram](ai-studybuddy-architecture.png)
+
 ## Installation
 
 Clone the repository:
